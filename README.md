@@ -9,3 +9,7 @@ In the command Terminal, use the following commands:
 * pip install selenium - To install the selenium package required to run the webdriver
 
 If any of the other package throws an error, use either *pip install **package name*** or *pip install --upgrade **package name***
+
+To use the image scraper, make the following changes to the code:
+* *Line 20* - Change the DRIVER_PATH address to wherever the **webdriver.exe** file is stored
+* *Line 97* - Change the target_path address to the destination folder where you want the images to be stored
