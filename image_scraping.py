@@ -17,7 +17,7 @@ from selenium import webdriver
 search_term = input('Enter a search term: ')
 number_images = int(input('Enter number of images to retrieve: '))
 
-DRIVER_PATH = 'C:\\Users\\lolud\\Desktop\\Scraping\\chromedriver'
+DRIVER_PATH = '#'
 wd = webdriver.Chrome(executable_path=DRIVER_PATH)
 
 
@@ -94,7 +94,7 @@ def persist_image(folder_path:str,url:str):
     except Exception as e:
         print(f"ERROR - Could not save {url} - {e}")
 
-def search_and_download(search_term,driver_path,number_images,target_path='C:/Users/lolud/Downloads/images'):
+def search_and_download(search_term,driver_path,number_images,target_path='#'):
     target_folder = os.path.join(target_path,'_'.join(search_term.lower().split(' ')))
 
     if not os.path.exists(target_folder):
