@@ -2,8 +2,7 @@
 
 This is a simple python script that takes in a search term and number as inputs, scrapes the images from Google Images and then returns them to a specified directory.
 
-To run this, install **ChromeDriver** onto your system from [here]("https://chromedriver.chromium.org/downloads"). Make sure that the version of ChromeDriver installed is the same as the version of the [Google Chrome]("chrome://settings/help") (This link is to check your Chrome browser for updates) web browser downloaded on the system.
-![Image of browser version]("https://photos.app.goo.gl/wu3RkY2kJjhX8DBc6")
+To run this, install **ChromeDriver** onto your system from ![here]("https://chromedriver.chromium.org/downloads"). Make sure that the version of ChromeDriver installed is the same as the version of the ![Google Chrome]("chrome://settings/help") (This link is to check your Chrome browser for updates) web browser downloaded on the system.
 
 In the command Terminal, use the following commands:
 * pip install --upgrade pip - To upgrade pip to the latest version
